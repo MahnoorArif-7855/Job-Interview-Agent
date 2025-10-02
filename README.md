@@ -25,7 +25,7 @@ Built with:
 
 ## 📊 Pipeline / Architecture
 
-```mermaid
+```
 flowchart TD
     A[User Upload Resume (PDF)] --> B[LangChain PDF Loader]
     A2[User Paste JD (Text)] --> C[Convert to LangChain Document]
