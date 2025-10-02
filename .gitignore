@@ -1,0 +1,21 @@
+# Ignore environment files
+.env
+
+# Ignore Python cache & virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter/Colab checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit logs
+.streamlit/
